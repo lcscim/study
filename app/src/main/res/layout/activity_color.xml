@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ca1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xml设置六位背景颜色"
+        android:textSize="20sp"
+        android:background="#00ff00"/>
+    <TextView
+        android:id="@+id/ca2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码设置六位背景颜色"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/ca3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码设置八位背景颜色"
+        android:textSize="20sp"/>
+
+</LinearLayout>

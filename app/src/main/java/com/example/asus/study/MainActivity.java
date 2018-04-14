@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_px).setOnClickListener(this);
+        findViewById(R.id.btn_color).setOnClickListener(this);
     }
 
     @Override
@@ -20,6 +21,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_px:
                 Intent intent = new Intent(MainActivity.this,Px_Activity.class);
                 startActivity(intent);
+                break;
+            case R.id.btn_color:
+                Intent intent1 = new Intent(MainActivity.this,Color_Activity.class);
+                startActivity(intent1);
                 break;
             default:
                 break;
