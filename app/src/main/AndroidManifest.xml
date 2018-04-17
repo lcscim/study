@@ -20,7 +20,8 @@
         <activity android:name=".Color_Activity" />
         <activity android:name=".View_Activity" />
         <activity android:name=".LTS_Activity" />
-        <activity android:name=".Spinner_Activity"></activity>
+        <activity android:name=".Spinner_Activity" />
+        <activity android:name=".Calender_Activity"></activity>
     </application>
 
 </manifest>

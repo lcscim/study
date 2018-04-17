@@ -68,5 +68,26 @@
             android:text="spinner"
             android:textAllCaps="false"/>
     </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第四章高级控件"
+        android:textSize="20sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日期选择器"
+            android:textAllCaps="false"/>
+    </LinearLayout>
 
 </LinearLayout>

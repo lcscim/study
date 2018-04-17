@@ -2,6 +2,7 @@ package com.example.asus.study;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_pmd).setOnClickListener(this);
         findViewById(R.id.btn_lts).setOnClickListener(this);
         findViewById(R.id.btn_spinner).setOnClickListener(this);
+        findViewById(R.id.btn_dp).setOnClickListener(this);
 
     }
 
@@ -41,6 +43,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_spinner:
                 Intent intent4 = new Intent(MainActivity.this,Spinner_Activity.class);
                 startActivity(intent4);
+                break;
+            case R.id.btn_dp:
+                Intent intent5 = new Intent(MainActivity.this,Calender_Activity.class);
+                startActivity(intent5);
                 break;
             default:
                 break;
