@@ -88,6 +88,12 @@
             android:layout_height="wrap_content"
             android:text="日期选择器"
             android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btn_vp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ViewPage"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
 </LinearLayout>
