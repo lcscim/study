@@ -94,6 +94,12 @@
             android:layout_height="wrap_content"
             android:text="ViewPage"
             android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btn_qdy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动页"
+            android:textAllCaps="false"/>
     </LinearLayout>
 
 </LinearLayout>
