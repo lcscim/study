@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.asus.study">
 
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +24,8 @@
         <activity android:name=".Spinner_Activity" />
         <activity android:name=".Calender_Activity" />
         <activity android:name=".ViewPage_Activity" />
-        <activity android:name=".QDY_Activity"></activity>
+        <activity android:name=".QDY_Activity" />
+        <activity android:name=".Rcb_Activity"></activity>
     </application>
 
 </manifest>

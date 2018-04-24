@@ -4,6 +4,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.example.asus.study.adapter.ImagePagerAdapter;
 import com.example.asus.study.adapter.LaunchSimpleAdapter;
@@ -16,6 +18,9 @@ public class QDY_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);      //去掉actionbar
+        getWindow().setFlags(WindowManager.LayoutParams. FLAG_FULLSCREEN ,
+                WindowManager.LayoutParams. FLAG_FULLSCREEN);       //去掉状态栏
         setContentView(R.layout.activity_qdy);
         ViewPager viewPager = findViewById(R.id.vp_start);
         LaunchSimpleAdapter launchSimpleAdapter = new LaunchSimpleAdapter(this,ints);
